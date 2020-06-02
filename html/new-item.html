@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>memo</title>
+    <link rel="stylesheet" href="../css/item.css">
+  </head>
+  <body class="body1">
+    <h1>NEW-WANT ITEM</h1>
+    <form class="" action="index.html" method="post" enctype="multipart/form-data">
+      <div class="question1">
+        <div class="box1">
+          <p>製品名：</p>
+          <p>価格：</p>
+          <p>メーカー・店名：</p>
+          <p>カテゴリー：</p>
+          <p>製品写真：</p>
+        </div>
+        <div class="box2">
+          <input class="q1 q2" type="text" name="name" placeholder="name"><br>
+          <input class="q1 q2" type="text" name="price" placeholder="price"> 円<br>
+          <input class="q1 q2" type="text" name="shop" placeholder="shop"><br>
+          <input class="q1 q2" type="text" name="category" placeholder="category"><br>
+          <input class="q1" type="file" name="item-image" placeholder="item-image"><br>
+        </div>
+        <div class="box3">
+          <p>ないと困るものですか？</p>
+          <p>マイナスな事象が解消・軽減されますか？</p>
+          <p>心理的に満たされるものですか？</p>
+          <p>無理なく払える金額ですか？</p>
+          <p>同じようなものを持っていないですか？</p>
+          <p>どの程度それを使いますか？</p>
+        </div>
+        <div class="box4">
+          <select class="q3" name="need">
+            <option selected="-">---選択してください---</option>
+            <option value="1">暫く無くても困らない・多くの代替品がある</option>
+            <option value="2">今は無くても困らない・代替品がある</option>
+            <option value="3">合った方が良い・代替品の買い替えが必要</option>
+            <option value="4">無いと困る・劣化した代替品はある</option>
+            <option value="5">すぐにでも無いと困る</option>
+          </select><br>
+          <select class="q3" name="convenience">
+            <option selected="-">---選択してください---</option>
+            <option value="1">全く解消されない</option>
+            <option value="2">さほど解消されない</option>
+            <option value="3">どちらかといえば解消される</option>
+            <option value="4">多くは解消される</option>
+            <option value="5">全て・大部分が解消される</option>
+          </select><br>
+          <select class="q3" name="satisfaction">
+            <option selected="-">---選択してください---</option>
+            <option value="1">特に満たされない</option>
+            <option value="2">満たされない</option>
+            <option value="3">どちらかといえば満たされる</option>
+            <option value="4">満たされる</option>
+            <option value="5">とても満たされる</option>
+          </select><br>
+          <select class="q3" name="payment">
+            <option selected="-">---選択してください---</option>
+            <option value="1">払える見込みはなく借金しても返済が難しい</option>
+            <option value="2">借金すれば払える、返済も問題ない</option>
+            <option value="3">貯金を崩す若しくは分割なら問題なく払える</option>
+            <option value="4">次の給料が入れば問題なく払える</option>
+            <option value="5">手持ちから直ぐに問題なく払える</option>
+          </select><br>
+          <select class="q3" name="the-same">
+            <option selected="-">---選択してください---</option>
+            <option value="1">新品若しくは多くの類似品を持っている</option>
+            <option value="2">買い替えの必要ない類似品を持っている</option>
+            <option value="3">類似品を持っているがレベルを上げたい</option>
+            <option value="4">類似品を持っているが買い替えが必要</option>
+            <option value="5">類似品は一切持っていない</option>
+          </select><br>
+          <select class="q3" name="use">
+            <option selected="-">---選択してください---</option>
+            <option value="1">ほぼ使わないだろう</option>
+            <option value="2">始めに数回は使うだろう</option>
+            <option value="3">年に数回は使うだろう</option>
+            <option value="4">定期的に使うだろう</option>
+            <option value="5">日常的に使うだろう</option>
+          </select><br>
+        </div>
+      </div>
+      <p>memo</p>
+      <textarea name="memo" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="submit" value="submit">
+    </form>
+    <a href="memo.html">top</a>
+  </body>
+</html>
